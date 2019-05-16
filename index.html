@@ -16,7 +16,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
-    </script>
+		</script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	
 	<!-- css files -->
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
@@ -103,40 +107,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Offered Services -->
 <section class="process py-5" id="mitra" style="background: rgb(22,118,93);">  
 	<div class="container py-md-3">
-		<h2 class="heading mb-5"><span style="color:#ffffff">Mitra</span> <span style="color:#fbae17">KasirPintar</span></h2>
-		<div class="row plugin_content align-items-center">
-			<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">
-				<div class="">
-					<img src="images/teswebsite-04.png" alt="" class="img-fluid">
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-7 text-center border-primary">
+					<h2 class="heading mb-2"><span style="color:#ffffff">Mitra</span> <span style="color:#fbae17">KasirPintar</span></h2>
+					<p class="color-black-opacity-5"><span style="color:#ffffff">Kasir Pintar dapat membantu beragam jenis usaha, seperti penjual sayur-sayuran, buah-buahan, hingga toko kelontong.	</span> </p>
+				</div>
+		  </div>
+			<div class="row plugin_content align-items-center">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+								<img src="images/teswebsite-04.png" alt="" class="img-fluid">
+							</div>
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+									<img src="images/teswebsite-05.png" alt="" class="img-fluid">
+							</div>
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+								<img src="images/teswebsite-06.png" alt="" class="img-fluid">
+							</div>
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+									<img src="images/teswebsite-07.png" alt="" class="img-fluid">
+							</div>
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+								<img src="images/teswebsite-09.png" alt="" class="img-fluid">
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+								<img src="images/1.png" alt="" class="img-fluid">
+							</div>
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+								<img src="images/2.png" alt="" class="img-fluid">
+							</div>
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+								<img src="images/3.png" alt="" class="img-fluid">
+							</div>
+							<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">	
+								<img src="images/4.png" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
 			</div>
-			<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">
-				<div class="">
-					<img src="images/teswebsite-06.png" alt="" class="img-fluid">
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">
-				<div class="">
-					<img src="images/teswebsite-07.png" alt="" class="img-fluid">
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">
-				<div class="">
-					<img src="images/teswebsite-08.png" alt="" class="img-fluid">
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative">
-				<div class="">
-					<img src="images/teswebsite-09.png" alt="" class="img-fluid">
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 my-lg-4 w3pvt-ab position-relative" style="margin-left:-90px;">
-				<a class="carousel-control-next" href="#slider_mitra" role="button" data-slide="next">
-					<i class="fa fa-chevron-right" aria-hidden="true"></i>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</div>
 	</div>
 </section>
 <!-- Offered Services -->
@@ -145,10 +162,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="process py-5" id="news">
 		<div class="container">
 		  <div class="row justify-content-center mb-5">
-			<div class="col-md-7 text-center border-primary">
-			  <h2 class="heading mb-2"><span style="color:rgb(22,118,93)">Update Berita Terbaru</span></h2>
-			  <p class="color-black-opacity-5">See Our Daily News &amp; Updates</p>
-			</div>
+				<div class="col-md-7 text-center border-primary">
+					<h2 class="heading mb-2"><span style="color:rgb(22,118,93)">Update Berita Terbaru</span></h2>
+					<p class="color-black-opacity-5">See Our Daily News &amp; Updates</p>
+				</div>
 		  </div>
 		  <div class="row mb-3 align-items-stretch">
 			<div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
